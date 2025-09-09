@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CIFAGRO</title>
+  <meta name="description" content="CIFAGRO — Landing minimalista" />
+  <meta name="color-scheme" content="light" />
+
+  <!-- Roboto (Google Fonts) con fallbacks locales -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg: #F7F7F7;       /* fondo y texto del botón */
+      --text: #505050;     /* párrafo */
+      --brand: #4E944F;    /* botón */
+      --btn-text: #F7F7F7; /* texto del botón */
+    }
+
+    /* Reset mínimo y tipografía base */
+    html,body{height:100%;}
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: "Roboto", system-ui, -apple-system, Segoe UI, Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      display:grid; /* centra vertical y horizontal */
+      place-items:center;
+      min-height:100dvh; /* mobile-friendly */
+    }
+
+    main{
+      width:min(92vw, 760px);
+      text-align:center;
+      padding: clamp(16px, 2.5vw, 32px);
+    }
+
+    .logo{
+      display:block;
+      margin-inline:auto;
+      height:auto;
+      max-width:min(360px, 70vw);
+    }
+
+    .tagline{
+      margin: clamp(16px, 2vw, 24px) auto clamp(24px, 3vw, 40px);
+      font-size: clamp(1rem, 1.1vw + .85rem, 1.25rem);
+      line-height: 1.6;
+      max-width: 60ch;
+    }
+
+    .btn{
+      --ring: color-mix(in oklab, var(--brand) 60%, black 40%);
+      display:inline-block;
+      background: var(--brand);
+      color: var(--btn-text);
+      text-decoration:none;
+      font-weight: 600;
+      padding: .9rem 1.2rem;
+      border-radius: 9999px;
+      letter-spacing: .2px;
+      box-shadow: 0 6px 16px rgba(0,0,0,.06);
+      transition: transform .12s ease, filter .18s ease, box-shadow .18s ease;
+    }
+    .btn:hover{ filter: brightness(1.05); transform: translateY(-1px); box-shadow: 0 10px 22px rgba(0,0,0,.08); }
+    .btn:active{ transform: translateY(0); filter: brightness(.98); }
+    .btn:focus-visible{ outline: 3px solid var(--ring); outline-offset: 3px; }
+
+    @media (prefers-reduced-motion: reduce){
+      .btn{ transition:none }
+      .btn:hover,.btn:active{ transform:none; filter:none }
+    }
+
+    /* Pequeño ajuste cuando el viewport es angosto */
+    @media (max-width: 420px){
+      .tagline{ font-size: 1rem }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <!-- Reemplazá logo.svg por el nombre de tu archivo si cambia. También podés pegar el SVG inline aquí. -->
+    <img class="logo" src="logo.svg" alt="CIFAGRO" />
+
+    <!-- Párrafo: editá el texto a tu gusto -->
+    <p class="tagline">
+      Un sistema claro para gestionar operaciones y finanzas del agro. Simple, directo y pensado para el día a día.
+    </p>
+
+    <!-- Botón: cambiá el href al destino real (p. ej. mailto:, WhatsApp o un formulario) -->
+    <a class="btn" href="#" aria-label="Abrir formulario de contacto de CIFAGRO">Conocé más</a>
+  </main>
+</body>
+</html>

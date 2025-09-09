@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="368px" height="95px" viewBox="0 0 368 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Frame" transform="translate(-70, -55)">
+            <g id="Group" transform="translate(69.523, 55)">
+                <text id="cifagro" font-family="RobotoMono-Regular, Roboto Mono" font-size="72" font-weight="normal" fill="#505050">
+                    <tspan x="65.477" y="75">cifagro</tspan>
+                </text>
+                <g id="noun-terminal-7603873-copy-2" transform="translate(0, 37.055)" fill-rule="nonzero">
+                    <path d="M14.8962143,18.9441301 L1.39424323,5.34541965 C0.171252257,4.10981408 0.171252257,2.10466628 1.39424323,0.869060711 C2.62073282,-0.363020237 4.61108715,-0.363020237 5.83757674,0.869060711 L21.5571328,16.7090686 C22.7836224,17.9446742 22.7836224,19.9462974 21.5571328,21.1819029 L5.83757674,37.0182958 C4.61108715,38.2539014 2.62073282,38.2539014 1.39424323,37.0182958 C0.171252257,35.7862149 0.171252257,33.7810671 1.39424323,32.5454615 L14.8962143,18.9441301 Z" id="Path" fill="#4E944F"></path>
+                    <path d="M26.477,34.945 C26.477,33.2876286 27.9265077,31.945 29.7077692,31.945 L47.2462308,31.945 C49.0310923,31.945 50.477,33.2876286 50.477,34.945 C50.477,36.6023714 49.0310923,37.945 47.2462308,37.945 L29.7077692,37.945 C27.9265077,37.945 26.477,36.6023714 26.477,34.945 L26.477,34.945 Z" id="Path" fill="#E6B800"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
